@@ -13,7 +13,7 @@ const client = new Client({
 });
 
 const translate = new Translate({
-    key:'AIzaSyAXBM8-KrDrQvrwkNoP0x03snMP4jVNLhE'
+    key:process.env.TOKEN1
 
 })
 
